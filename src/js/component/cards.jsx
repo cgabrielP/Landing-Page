@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { cards } from "../../data/info";
 
+
 const Card = () => {
 	return (
 	<div className="card container-md col-md-3">
