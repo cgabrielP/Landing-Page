@@ -10,7 +10,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<>
-			{/* <Navbar /> */}
+			<Navbar /> 
 
 			<div >
 				<Jumbotron />
