@@ -1,8 +1,8 @@
 import React from "react";
-
+import {footer} from "../../data/info"
 export const Footer = () => (
-	<footer className="bg-secondary py-3 text-center ">
-		<p className="text-white">Copyright @ Your Website 2022</p>
+	<footer className="bg-dark py-3 text-center ">
+		<p className="text-white">{footer.text}</p>
 	</footer>
 );
 
