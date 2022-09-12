@@ -15,7 +15,7 @@ const Home = () => {
 			<div >
 				<Jumbotron />
 
-				<div>
+				<div className="row m-5">
 					<Card />
 					<Card />
 					<Card />
