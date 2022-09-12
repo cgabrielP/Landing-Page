@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const Card = () => {
 	return (
-		<div className="card container-md col-md-3">
+		<div className="card container-md col-md-3 ">
 			<img src="https://picsum.photos/id/237/300" className="card-img-top" alt="..." />
 				<div className="card-body">
 					<h5 className="card-title">Card title</h5>

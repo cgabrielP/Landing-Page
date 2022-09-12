@@ -8,7 +8,7 @@ export let navbar = {
     ]
 }
 
-export let header = {
+export let jumbotron = {
     title: 'A Warm Welcome!',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ',
     button: {
