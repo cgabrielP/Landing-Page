@@ -17,6 +17,11 @@ export let header = {
     }
 }
 
+export let cards = {
+    opt:[
+        {link:'https://picsum.photos/id/237/300'},]
+}
+
 export let sections = {
      title: 'For those about to rock...', 
      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.', 
