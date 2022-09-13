@@ -18,12 +18,13 @@ const Home = () => {
 
 			<div >
 				<Jumbotron jumbotron={jumbotron}/>
-
-				<div className="row m-5">
+<div className="container">
+				<div className="row my-5">
 					<Card card={card} />
 					<Card card={card} />
 					<Card card={card}/>
 					<Card card={card} />
+				</div>
 				</div>
 			</div>
 
