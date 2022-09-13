@@ -1,7 +1,7 @@
 import React from "react";
-import { jumbotron } from "../../data/info";
+import PropTypes from "prop-types";
 
-const Jumbotron = () => {
+const Jumbotron = ({jumbotron}) => {
 	return (
         <div className="container">
 		<div className="jumbotron p-5 bg-light">
@@ -14,4 +14,8 @@ const Jumbotron = () => {
         </div>
 	);
 };
+Jumbotron.propTypes = {
+	jumbotron: PropTypes.object.isRequired
+  }
+
 export default Jumbotron
