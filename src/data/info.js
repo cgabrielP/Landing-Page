@@ -17,16 +17,17 @@ export let jumbotron = {
     }
 }
 
-export let cards = {
-    opt:[
-        {link:'https://picsum.photos/id/237/300'},]
+export let card = {
+        link:'https://picsum.photos/id/237/300',
+        title: 'Card title',
+        text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        button: {
+            label: 'Go somewhere', 
+            ref:'#'
+        }
 }
 
-export let sections = {
-     title: 'For those about to rock...', 
-     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.', 
-     imageURL: '', 
-     }
+
 export let footer = {
     text: 'Copyright \u00A9 Your Website 2022'
 }

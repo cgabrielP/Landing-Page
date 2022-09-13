@@ -1,25 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { cards } from "../../data/info";
 
 
-const Card = () => {
+const Card = ({card}) => {
 	return (
-	<div className="card container-md col-md-3">
-		{
-		cards.opt.map(({ link }, index) => {
-			return (<img src={link} key={index} className="card-img-top" alt="..." />)
-		})}
-		<div className="card-body">
-			<h5 className="card-title">Card title</h5>
-			<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		</div>
-		<div className="card-footer row justify-content-center">
-			<a href="#" className="btn btn-primary d-flex col-5">Go somewhere</a>
+		<div className="card container-md col-md-3">
+			<img src={card.link} className="card-img-top" alt="..." />
+			<div className="card-body">
+				<h5 className="card-title">{card.title}</h5>
+				<p className="card-text">{card.text}</p>
 			</div>
-	</div>)
+			<div className="card-footer row justify-content-center">
+				<a href={card.button.ref} className="btn btn-primary d-flex col-5">{card.button.label}</a>
+			</div>
+		</div>)
 }
-cards.propTypes = {
-	cards: PropTypes.object.isRequired
+Card.propTypes = {
+	card: PropTypes.object.isRequired
 }
 export default Card;

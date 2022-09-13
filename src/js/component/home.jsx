@@ -8,6 +8,7 @@ import Footer from "./footer.jsx";
 import { navbar } from "../../data/info";
 import {footer} from "../../data/info"
 import { jumbotron } from "../../data/info";
+import { card } from "../../data/info";
 
 //create your first component
 const Home = () => {
@@ -19,10 +20,10 @@ const Home = () => {
 				<Jumbotron jumbotron={jumbotron}/>
 
 				<div className="row m-5">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+					<Card card={card} />
+					<Card card={card} />
+					<Card card={card}/>
+					<Card card={card} />
 				</div>
 			</div>
 
