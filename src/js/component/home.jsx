@@ -4,16 +4,19 @@ import Jumbotron from "./jumbotron.jsx";
 import Card from "./cards.jsx";
 import Footer from "./footer.jsx";
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
+import { navbar } from "../../data/info";
+import {footer} from "../../data/info"
+import { jumbotron } from "../../data/info";
 
 //create your first component
 const Home = () => {
 	return (
 		<>
-			<Navbar /> 
+			<Navbar navbar={navbar}/> 
 
 			<div >
-				<Jumbotron />
+				<Jumbotron jumbotron={jumbotron}/>
 
 				<div className="row m-5">
 					<Card />
@@ -23,7 +26,7 @@ const Home = () => {
 				</div>
 			</div>
 
-			<Footer />
+			<Footer footer={footer}/>
 		</>
 	);
 };
